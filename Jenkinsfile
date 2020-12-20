@@ -12,7 +12,7 @@ pipeline {
       stage('Code Checkout') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/sidvijay18/tomcat_pipeline.git'   
+git branch: 'feature/satyam', url: 'https://github.com/sidvijay18/tomcat_pipeline.git'
          }
 
       }
