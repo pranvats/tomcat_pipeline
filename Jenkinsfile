@@ -39,7 +39,7 @@ pipeline {
          steps {
         
             // To run Maven on a Windows agent, use
-           bat label: '', script: 'copy /Y target\\Pranvat-1.0.war C:\Users\pavne\Downloads\apache-tomcat-9.0.43-windows-x86\apache-tomcat-9.0.43\webapps'
+           bat label: '', script: 'copy /Y C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\New_freestyleproject\targetPranvat-1.0.war C:\Users\pavne\Downloads\apache-tomcat-9.0.43-windows-x86\apache-tomcat-9.0.43\webapps'
          }
 
       }
